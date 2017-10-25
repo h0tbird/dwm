@@ -33,10 +33,10 @@ static const char *colors[][3] = {
 	              /* fg      bg      border */
 	[SchemeNorm] = { color2, color3, color1 }, // 1 = normal (grey on black)
 	[SchemeSel]  = { color5, color3, color4 }, // 2 = selected (white on black)
-	[SchemeUrg]  = { color3, color4, color6 }, // 3 = urgent (black on yellow)
+	[SchemeUrg]  = { color4, color3, color6 }, // 3 = urgent (yellow on black)
 	[3]          = { color1, color3, color1 }, // 4 = darkgrey on black (triangle)
 	[4]          = { color3, color1, color1 }, // 5 = black on darkgrey (triangle)
-	[5]          = { color7, color1, color1 }, // 6 = magenta on darkgrey
+	[5]          = { color7, color3, color3 }, // 6 = magenta on black
 };
 
 //----------
