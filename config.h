@@ -105,16 +105,16 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0";
 static const char *dmenucmd[] = { "dmenu_run", "-hist", "/home/marc/.dmenu.history", "-fn", dmenufont, "-nb", color3, "-nf", color2, "-sb", color3, "-sf", color5, NULL };
 static const char *termcmd[]  = { "urxvtc", NULL };
-static const char *zoomin[]   = { "zoom.sh", "in", NULL };
-static const char *zoomout[]  = { "zoom.sh", "out", NULL };
-static const char *zoom1[]    = { "zoom.sh", "1", NULL };
-static const char *zoom2[]    = { "zoom.sh", "2", NULL };
-static const char *zoom3[]    = { "zoom.sh", "3", NULL };
-static const char *zoom4[]    = { "zoom.sh", "4", NULL };
-static const char *zoom5[]    = { "zoom.sh", "5", NULL };
-static const char *zoom6[]    = { "zoom.sh", "6", NULL };
-static const char *zoom7[]    = { "zoom.sh", "7", NULL };
-static const char *kbcast[]   = { "kbcast.sh", NULL };
+static const char *zoomin[]   = { "zoom", "in", NULL };
+static const char *zoomout[]  = { "zoom", "out", NULL };
+static const char *zoom1[]    = { "zoom", "1", NULL };
+static const char *zoom2[]    = { "zoom", "2", NULL };
+static const char *zoom3[]    = { "zoom", "3", NULL };
+static const char *zoom4[]    = { "zoom", "4", NULL };
+static const char *zoom5[]    = { "zoom", "5", NULL };
+static const char *zoom6[]    = { "zoom", "6", NULL };
+static const char *zoom7[]    = { "zoom", "7", NULL };
+static const char *kbcast[]   = { "kbcast", NULL };
 
 //-------
 // Keys:
