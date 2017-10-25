@@ -34,9 +34,9 @@ static const char *colors[][3] = {
 	[SchemeNorm] = { color2, color3, color1 }, // 1 = normal (grey on black)
 	[SchemeSel]  = { color5, color3, color4 }, // 2 = selected (white on black)
 	[SchemeUrg]  = { color3, color4, color6 }, // 3 = urgent (black on yellow)
-	[4]          = { color1, color3, color1 }, // 4 = darkgrey on black (triangle)
-	[5]          = { color3, color1, color1 }, // 5 = black on darkgrey (triangle)
-	[6]          = { color7, color1, color1 }, // 6 = magenta on darkgrey
+	[3]          = { color1, color3, color1 }, // 4 = darkgrey on black (triangle)
+	[4]          = { color3, color1, color1 }, // 5 = black on darkgrey (triangle)
+	[5]          = { color7, color1, color1 }, // 6 = magenta on darkgrey
 };
 
 //----------
@@ -68,6 +68,7 @@ static const Rule rules[] = {
 	{ "Chromium", NULL,       NULL,       1 << 1,       0,           -1 },
 	{ "URxvt",    NULL,       "kbcast",   0,            1,           -1 },
 	{ "Pinentry", NULL,       NULL,       0,            1,           -1 },
+	{ "Gbdfed",   NULL,       NULL,       0,            1,           -1 },
 };
 
 //------------
